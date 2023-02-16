@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Suspense } from 'react'
 import ListPageBody from '@/components/ListPageBody'
 import ProgressBar from '@/components/ProgressBar'

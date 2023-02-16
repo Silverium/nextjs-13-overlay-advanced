@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Card() {
-    return <img src="https://via.placeholder.com/640x480.png/a59090/000000?Text=640x480" />
+    return <Image alt="dummy placeholder for 640x480" src="https://via.placeholder.com/640x480.png/a59090/000000?Text=640x480" />
 }

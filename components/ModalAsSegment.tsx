@@ -9,7 +9,7 @@ const ModalAsSegment: React.FC<{ params: { all: string[] } }> = ({ params }) => 
     const router = useRouter();
     const handleClose = useCallback(() => {
         router.push(pathname!.replace(`/${modalName}`, ""));
-    }, [pathname, router]);
+    }, [modalName, pathname, router]);
 
     const Modal = modalMap[modalName];
 

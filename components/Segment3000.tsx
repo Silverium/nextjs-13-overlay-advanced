@@ -1,5 +1,4 @@
 import styles from "@/styles/Home.module.css";
-export const dynamic = "force-dynamic";
 
 export default async function Segment3000() {
   await new Promise((r) => setTimeout(r, 3000));

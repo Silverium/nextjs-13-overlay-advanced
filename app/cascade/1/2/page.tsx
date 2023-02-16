@@ -1,5 +1,6 @@
 import LazySegmented from '@/components/Lazy3000Segment'
 
+export const dynamic = "force-dynamic";
 export default async function SecondLevel() {
 
     return (
